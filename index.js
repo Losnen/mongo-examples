@@ -16,7 +16,14 @@ ramos.save((err) => {
 
 //Obtenemos todos los usuarios
 User.find({}, (err, users) => {
-  if (err) throw err;
+    if (err) console.log(err);
 
-  console.log(users);
+    console.log(users);
+});
+
+// Buscar el usuario Samuel
+User.find({ nombre: 'Samuel' }, (err, user) => {
+    if (err) console.log(err);
+
+    console.log(user);
 });
