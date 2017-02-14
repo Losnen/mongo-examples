@@ -13,3 +13,10 @@ ramos.save((err) => {
 
     console.log('User created!');
 });
+
+//Obtenemos todos los usuarios
+User.find({}, (err, users) => {
+  if (err) throw err;
+
+  console.log(users);
+});
