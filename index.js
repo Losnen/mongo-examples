@@ -27,3 +27,10 @@ User.find({ nombre: 'Samuel' }, (err, user) => {
 
     console.log(user);
 });
+
+// Buscar el usuario con ID 1
+User.findById(1, (err, user) => {
+    if (err) console.log(err);
+
+    console.log(user);
+});
