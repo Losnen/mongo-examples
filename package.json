@@ -1,0 +1,22 @@
+{
+  "name": "mongo-examples",
+  "version": "1.0.0",
+  "description": "MongoDB and mongoose examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Losnen/mongo-examples.git"
+  },
+  "author": "Samuel Ramos Barroso (alu0100815146@ull.edu.es)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Losnen/mongo-examples/issues"
+  },
+  "homepage": "https://github.com/Losnen/mongo-examples#readme",
+  "dependencies": {
+    "mongoose": "^4.8.2"
+  }
+}
