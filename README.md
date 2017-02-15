@@ -6,7 +6,7 @@
 * Update
 * Delete
 
-## Quering
+## Querying
 
 Ejemplo de consulta en el que se muestran los usuarios que se llaman Samuel y que fueron creados el mes pasado.
 
